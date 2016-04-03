@@ -1,0 +1,26 @@
+1. Tank - Move
+PositionXY, Dimensions, Speed, Health
+- Player - Move, Shoot
+- Enemy
+  BasicEnemy - Move
+  HardEnemy - Move, Shoot
+(- Boss - Move, Shoot ) -> optional
+
+2. Obstacle
+PositionXY, Dimensions
+- Concrete (indestructable)
+- Brick (destructable)
+
+3. Weapon - Launch, Hit
+PositionXY, Speed, Direction
+
+4. HUD (Health Bar + Enemies Killed)
+PositionXY, Dimensions
+
+5. Window - copy/paste
+
+6. Game (main)
+
+7. Menu -> Single Player, Options
+
+8. KeyListener -> copy/paste
